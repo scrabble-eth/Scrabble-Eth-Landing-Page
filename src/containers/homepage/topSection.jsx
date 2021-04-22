@@ -118,7 +118,7 @@ const MotivationalText = styled.h1`
 `;
 
 const DownArrowContainer = styled.div`
-  position: absolute;
+  position: relative;
   bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
