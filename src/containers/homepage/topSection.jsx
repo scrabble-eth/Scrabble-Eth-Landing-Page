@@ -120,7 +120,8 @@ const MotivationalText = styled.h1`
 const DownArrowContainer = styled.div`
   position: relative;
   bottom: 25px;
-  left: 50%;
+  margin: auto;
+  margin-top: 60px;
   transform: translateX(-50%);
 `;
 
@@ -186,7 +187,6 @@ export function TopSection(props) {
             <Marginer direction="vertical" margin="0.5em" />
             <Marginer direction="horizontal" margin="0.5em" />
           </SubmitButton>
-          <Marginer direction="vertical" margin="1em" />
           <DownArrowContainer onClick={scrollToNextSection}>
             <DownArrow />
           </DownArrowContainer>
