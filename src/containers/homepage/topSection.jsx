@@ -125,15 +125,13 @@ const DownArrowContainer = styled.div`
 `;
 
 const SubmitButton = styled.button`
-  padding: ${({ small }) => (small ? "5px 8px" : "7px 15px")};
   border-radius: 5px;
+  width: 100%;
   background-color: #8C52FF;
   color: #fff;
   font-weight: bold;
   font-family: 'Press Start 2P', cursive;
-  font-size: ${({ small }) => (small ? "12px" : "16px")};
   font-size: 21px;
-  outline: none;
   border: 2px solid transparent;
   transition: all 220ms ease-in-out;
   cursor: pointer;
@@ -188,6 +186,7 @@ export function TopSection(props) {
             <Marginer direction="vertical" margin="0.5em" />
             <Marginer direction="horizontal" margin="0.5em" />
           </SubmitButton>
+          <Marginer direction="vertical" margin="1em" />
           <DownArrowContainer onClick={scrollToNextSection}>
             <DownArrow />
           </DownArrowContainer>
