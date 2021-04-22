@@ -180,7 +180,7 @@ export function TopSection(props) {
                   </FirstContainer>
                 </SecondContainer>
                 </ThirdContainer>
-          <Marginer direction="vertical" margin="1em" />
+          <Marginer direction="vertical" margin="2em" />
           <SubmitButton>
           <Marginer direction="vertical" margin="0.5em" />
           <Marginer direction="horizontal" margin="0.5em" />
