@@ -65,8 +65,8 @@ const SecondContainer = styled.div`
 `;
 
 const ThirdContainer = styled.div`
-  width: 800px;
-  height: 500px;
+  width: 60%;
+  height: 55%;
   background-color: #5CE1E6;
   display: flex;
   justify-content: center;
@@ -80,14 +80,14 @@ const ThirdContainer = styled.div`
 `;
 
 const BottomContainer = styled.div`
-  width: 700px;
-  height: 150px;
+  width: 90%;
+  height: 35%;
   display: flex;
   box-shadow: 0px 0px 7px rgba(17, 17, 17, 0.15);
   border-radius: 10px;
   position: relative;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 30px;
 `;
 
@@ -100,8 +100,8 @@ const AboutImg = styled.img`
 `;
 
 const LogoImg = styled.img`
-  width: 770px;
-  height: 150px;
+  width: 85%;
+  height: 35%;
   display: block;
   margin: auto;
   margin-top: 40px;
