@@ -4,6 +4,7 @@ import { theme } from "../../theme";
 
 const ButtonWrapper = styled.button`
   padding: ${({ small }) => (small ? "5px 8px" : "7px 15px")};
+  width: 80%;
   border-radius: 5px;
   background-color: #8C52FF;
   color: #fff;

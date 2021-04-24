@@ -8,28 +8,24 @@ const LogoContainer = styled.div`
   display: flex;
   flex-direction: ${({ inline }) => (inline ? "row" : "column")};
   align-items: center;
+  width: 80%;
+  height: 80%;
 `;
 
 const LogoImg = styled.img`
-  width: 8em;
-  height: 8em;
+  width: 40%;
+  height: 35%;
 
   ${({ inline }) =>
     inline &&
     css`
       margin-top: 5px;
-      width: 250px;
-      height: 35px;
       margin-right: 6px;
     `};
 
   ${({ small }) =>
     small &&
     css`
-      width: 200px;
-      height: 200px;
-      width: 4.8em;
-      height: 4.8em;
     `};
 `;
 

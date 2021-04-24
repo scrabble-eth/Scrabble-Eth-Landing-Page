@@ -30,6 +30,7 @@ const BrandContainer = styled.div`
 const AccessibilityContainer = styled.div`
   display: flex;
   flex-direction: row;
+  width: 30%;
 `;
 
 const LoginButton = styled(Button)`
