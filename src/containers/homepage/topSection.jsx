@@ -165,6 +165,7 @@ export function TopSection(props) {
     <Element name="topSection">
       <TopContainer>
         <BackgroundFilter>
+          <Navbar />
               <ThirdContainer>
                 <SecondContainer>
                   <FirstContainer>
