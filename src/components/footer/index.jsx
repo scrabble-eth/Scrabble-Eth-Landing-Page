@@ -107,15 +107,9 @@ const RightsReserved = styled.div`
 `;
 
 const AboutImg = styled.img`
-  width: 120px;
-  height: 100px;
+  width: 5%;
+  height: 18%;
   margin-left: 2em;
-
-  @media screen and (max-width: 480px) {
-    width: 370px;
-    height: 290px;
-    margin-left: 0;
-  }
 `;
 
 const Line = styled.span`

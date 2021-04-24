@@ -6,8 +6,7 @@ import { Marginer } from "../marginer";
 
 const NavbarContainer = styled.div`
   width: 100%;
-  height: 50px;
-  padding: 0 2em;
+  height: 6%;
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
@@ -18,8 +17,7 @@ const NavbarContainer = styled.div`
 
 const MiddleContainer = styled.div`
   width: 80%;
-  height: 50px;
-  padding: 0 2em;
+  height: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
